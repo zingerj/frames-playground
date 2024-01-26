@@ -11,6 +11,7 @@ import Image from "next/image";
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://frames-playground.vercel.app"),
   other: {
     "fc:frame": "vNext",
     "fc:frame:image": "/public/ff.png",
