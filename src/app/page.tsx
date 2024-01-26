@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://frames-playground.vercel.app"),
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "/public/ff.png",
+    "fc:frame:image": "/ff.png",
     "fc:frame:button:1": "This",
     "fc:frame:button:2": "is",
     "fc:frame:button:3": "so",
