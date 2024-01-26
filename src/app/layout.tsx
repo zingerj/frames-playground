@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "https://emojicdn.elk.sh/🖼️",
   },
+  openGraph: {
+    videos: "https://frames-playground.vercel.app/earth.mp4",
+  },
 };
 
 export default function RootLayout({
