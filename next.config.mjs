@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "emojicdn.elk.sh",
+      },
+    ],
+  },
+};
 
 export default nextConfig;
