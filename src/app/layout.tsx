@@ -5,9 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Farcaster Frames Playground",
-  description: "A playground for testing Faracaster Frames",
-  icons: { icon: "https://emojicdn.elk.sh/🖼️" },
+  title: "Frames Playground",
+  description: "A playground for testing Farcaster Frames",
+  icons: {
+    icon: "https://emojicdn.elk.sh/🖼️",
+  },
 };
 
 export default function RootLayout({
